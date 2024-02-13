@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <button class="hover">
+                <img src="assets/menu.svg" alt="">
+            </button>
+            <a href="https://github.com/"><img class="invert" src="assets/logo.svg" alt=""></a>
+            <span>
+                <h3>Dashboard</h3>
+            </span>
+        </div>
+        <div class="nav-right">
+            <div class="search-btn">
+                <img src="assets/search.svg" alt="">
+                <span>Type / to search</span>
+                <div class="flex aline gray-hover">
+                    <span>|</span>
+                    <img class="command" src="assets/comand.svg" alt="">
+                </div>
+            </div>
+            <button class="create-new gray-hover flex aline">
+                <img src="assets/plus.svg" alt="">
+                <img src="assets/down.svg" alt="">
+            </button>
+            <button class="flex aline justify gray-hover">
+                <img src="assets/issue.svg" alt="">
+            </button>
+
+            <button class="flex aline justify gray-hover">
+                <img src="assets/pull.svg" alt="">
+            </button>
+
+            <button class="flex aline justify gray-hover">
+                <img src="assets/notification.svg" alt="">
+            </button>
+
+            <img width="40" height="40" style="border-radius: 20px;"
+                src="https://avatars.githubusercontent.com/u/153183085?v=4" alt="">
+
+        </div>
+    </nav>
+
+
+    <main class="flex">
+        <div class="left-container">
+            <div class="container">
+                <div class="repo-new flex justify1">
+                    <h3>Top Repositories</h3>
+                    <span class="new flex aline justify">
+                        <img src="assets/newbook.svg" alt="">
+                        New
+                    </span>
+                </div>
+                <input class="myInput input-design" type="text" placeholder="  Find a repository..."
+                    onclick="changeStyle()">
+                <div class="repository gap">
+
+                    <div class="repo flex aline gap">
+                        <img width="20" height="20" style="border-radius: 20px;"
+                            src="https://avatars.githubusercontent.com/u/153183085?v=4" alt="">
+                        <a href="https://github.com/itsrajcode/newSpotify">itsrajcode/newSpotify</a>
+                    </div>
+                    <div class="repo flex aline gap">
+                        <img width="20" height="20" style="border-radius: 20px;"
+                            src="https://avatars.githubusercontent.com/u/153183085?v=4" alt="">
+                        <a href="https://github.com/itsrajcode/NetflixLandingPage">itsrajcode/NetflixLandingPage</a>
+                    </div>
+                    <div class="repo flex aline gap">
+                        <img width="20" height="20" style="border-radius: 20px;"
+                            src="https://avatars.githubusercontent.com/u/153183085?v=4" alt="">
+                        <a href="https://github.com/itsrajcode/YouTube-clone">itsrajcode/YouTube-clone</a>
+                    </div>
+                    <div class="repo flex aline gap">
+                        <img width="20" height="20" style="border-radius: 20px;"
+                            src="https://avatars.githubusercontent.com/u/153183085?v=4" alt="">
+                        <a href="https://github.com/itsrajcode/TicTacToe">itsrajcode/TicTacToe</a>
+                    </div>
+                    <div class="repo flex aline gap">
+                        <img width="20" height="20" style="border-radius: 20px;"
+                            src="https://avatars.githubusercontent.com/u/153183085?v=4" alt="">
+                        <a href="https://github.com/itsrajcode/TheOdin---Dashboard">itsrajcode/TheOdin---Dashboard</a>
+                    </div>
+                    <div class="repo flex aline gap">
+                        <img width="20" height="20" style="border-radius: 20px;"
+                            src="https://avatars.githubusercontent.com/u/153183085?v=4" alt="">
+                        <a href="https://github.com/itsrajcode/TheOdin-LoginPage">itsrajcode/TheOdin-LoginPage</a>
+                    </div>
+                    <div class="repo flex aline gap">
+                        <img width="20" height="20" style="border-radius: 20px;"
+                            src="https://avatars.githubusercontent.com/u/153183085?v=4" alt="">
+                        <a href="https://github.com/itsrajcode/amazonClone">itsrajcode/amazonClone</a>
+                    </div>
+                    <span>Show more</span>
+                    <h3>Recent activity</h3>
+                    <p class="flex aline justify">When you take actions across GitHub, we’ll provide links to that
+                        activity here.</p>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="right-container flex aline justify">
+            <div class="box-container">
+                <div class="head flex aline justify1">
+                    <h2>Home</h2>
+                    <div class="flex aline">
+                        <span class="und-hover" style="color: #2F81F7; font-size: 1.1rem;">Send feedback</span>
+                        <button class="filter-btn p-1"><img src="assets/menudown.svg" alt=""> Filter <span
+                                class="p-1">8</span></button>
+                    </div>
+                </div>
+
+                <div class="head1 flex aline justify1 m-top">
+                    <span class="flex aline gap"><img src="assets/code.svg" alt="">Start writing code</span>
+                    <img src="assets/dots.svg" alt="">
+                </div>
+
+                <div class="box">
+                    <h3>Start a new repository for itsrajcode</h3>
+                    <p>A repository contains all of your project's files, revision history, and collaborator discussion.
+                    </p>
+                    <form action="">
+                        <label for="name">Repository name *</label>
+                        <input type="text" placeholder="name your new repository...">
+                    </form>
+
+                    <label class="flex aline gap">
+                        <input type="radio" name="privacy" value="public"><span
+                            style="font-size: 1.1rem; font-weight: 600;">Public</span>
+                    </label>
+                    <p class="p-left">Anyone on the internet can see this repository</p>
+                    <label class="flex aline gap">
+                        <input type="radio" name="privacy" value="private"><span
+                            style="font-size: 1.1rem; font-weight: 600;">Private</span>
+                    </label>
+                    <p class="p-left">You choose who can see and commit to this repository</p>
+                    <button>Create a new repository</button>
+                </div>
+
+                <div class="box2">
+                    <h3>Introduce yourself with a profile README</h3>
+                    <p>Share information about yourself by creating a profile README, which appears at the top of your
+                        profile page.</p>
+                    <div class="readme">
+                        <div class="readme-head flex aline justify1">
+                            <span>itsrajcode/README.md</span>
+                            <button class="create-btn">Create</button>
+                        </div>
+                        <ol>
+                            <li>- 👋 Hi, I’m @itsrajcode</li>
+                            <li>- 👀 I’m interested in ...</li>
+                            <li>- 🌱 I’m currently learning ...</li>
+                            <li>- 💞️ I’m looking to collaborate on ...</li>
+                            <li>- 📫 How to reach me ...</li>
+                            <li>- 😄 Pronouns: ...</li>
+                            <li>- ⚡ Fun fact: ...</li>
+                            <li></li>
+                        </ol>
+                    </div>
+                </div>
+
+
+                <div class="head1 flex aline justify1 m-top">
+                    <span class="flex aline gap"><img src="assets/wrench.svg" alt="">Use tools of the trade</span>
+                    <img src="assets/dots.svg" alt="">
+                </div>
+
+                <div class="box3">
+                    <h3>Write code in your web browser</h3>
+                    <div class="flex gap m-bottom">
+                        <img height="130" width="130"
+                            src="https://github.githubassets.com/assets/github-vscode-logo-light-a58629c90ef3.svg"
+                            alt="">
+                        <p>Use <a class="und-hover"
+                                href="https://docs.github.com/en/codespaces/the-githubdev-web-based-editor">the
+                                github.dev web-based editor</a> from your repository or pull request to create and
+                            commit changes.</p>
+                    </div>
+                </div>
+                <div class="box4">
+                    <h3>Get AI-based coding suggestions</h3>
+                    <div class="flex gap m-bottom">
+                        <img src="assets/copilot.svg" alt="">
+                        <p class="p-left1"><a class="und-hover" href="https://github.com/github-copilot/signup">Try
+                                GitHub Copilot free for 30 days,</a> which suggests entire functions in real time, right
+                            from your editor.</p>
+                    </div>
+                </div>
+
+                <div class="head1 flex aline justify1 m-top">
+                    <span class="flex aline gap"><img src="assets/education.svg" alt="">Get started on GitHub</span>
+                    <img src="assets/dots.svg" alt="">
+                </div>
+
+                <div class="box5">
+                    <a href="https://www.youtube.com/watch?v=pBy1zgt0XPc"><img
+                            src="https://github.githubassets.com/assets/video-thumbnail-2x-f1866af5200c.jpg" alt=""></a>
+                </div>
+                <div class="box6">
+                    <div class="flex gap">
+                        <img width="35" height="35" src="assets/pull.svg" alt="">
+                        <h3>Follow this exercise to try the GitHub flow</h3>
+                    </div>
+                    <p>GitHub's “Hello World” tutorial teaches you essentials, where you create your own repository and
+                        learn GitHub's pull request workflow for creating and reviewing code.</p>
+                    <span class="m-top">
+                        <a href="https://docs.github.com/en/get-started/start-your-journey/hello-world">Try the GitHub
+                            flow</a>
+                    </span>
+                </div>
+
+                <div class="box7 m-top">
+                    <div class="box6-top flex justify1 aline">
+                        <div class="flex aline gap" style="font-size: 1.2rem;">
+                            <img src="assets/lineChart.svg" alt="">
+                            <p>Trending repositories •</p>
+                            <a class="und-hover" style="color: #2F81F7;" href="https://github.com/trending">See more</a>
+                        </div>
+                        <img src="assets/dots.svg" alt="">
+                    </div>
+                    <div class="flex aline justify1">
+                        <div class="flex aline gap">
+                            <img height="24" width="24" style="border: 1px solid black;border-radius: 5px;"
+                                src="https://avatars.githubusercontent.com/u/3299148?s=40&v=4" alt="">
+                            <h3 class="und-hover"><a href="https://github.com/awslabs/llrt">
+                                    awslabs/llrt</a></h3>
+                        </div>
+                        <span class="flex aline">
+                            <button class="star flex aline gap"><img src="assets/star.svg" alt="">star</button>
+                            <button class="down flex aline"><img src="assets/graydown.svg" alt=""></button>
+                        </span>
+                    </div>
+                    <p1 style="font-size: 18px;">LLRT (Low Latency Runtime) is an experimental, lightweight JavaScript
+                        runtime designed to address the growing demand for fast and efficient Serverless applications.
+                    </p1>
+                </div>
+
+
+                <div class="footer">
+                    <div class="flex aline gap">
+                        <a href="https://github.com/"><img src="assets/logo2.svg" alt=""></a>
+                        <span>© 2024 GitHub, Inc.</span>
+                    </div>
+                    <div class="foot-link">
+
+                        <ul>
+                            <li>
+                                <a
+                                    href="https://docs.github.com/site-policy/github-terms/github-terms-of-service">Terms</a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement">Privacy</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/security">Security</a>
+                            </li>
+                            <li>
+                                <a href="https://www.githubstatus.com/">Status</a>
+                            </li>
+                            <li>
+                                <a href="https://docs.github.com">Docs</a>
+                            </li>
+                            <li>
+                                <a href="https://support.github.com?tags=dotcom-footer">Contact</a>
+                            </li>
+                            <li>
+                                <a href="">Manage cookies</a>
+                            </li>
+                            <li>
+                                <a href="">Do not share my personal information</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
